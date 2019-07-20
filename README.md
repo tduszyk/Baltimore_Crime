@@ -3,14 +3,14 @@
 ## Team 007
 
 ### Contributors
-Tom Duszyk
+Tom Duszyk<br/>
 Karla Pratts
 
 ### Data sources
 
-Baltimore CCTV locations. from data.world : 
+Baltimore CCTV locations. from data.world : <br/>
 https://www.kaggle.com/sohier/crime-in-baltimore
-2019 Baltimore Crime data. from kaggle:
+2019 Baltimore Crime data. from kaggle:<br/>
  https://www.kaggle.com/sohier/crime-in-baltimore 
 
 Both datasets were formatted as CSV’s 

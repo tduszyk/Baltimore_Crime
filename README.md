@@ -10,7 +10,9 @@ Karla Pratts
 ### Data sources
 
 Baltimore CCTV locations. from data.world : <br/>
-https://www.kaggle.com/sohier/crime-in-baltimore
+https://www.kaggle.com/sohier/crime-in-baltimore <br/>
+baltimore/baltimore-cctv-locations
+
 2019 Baltimore Crime data. from kaggle:<br/>
  https://www.kaggle.com/sohier/crime-in-baltimore 
 

@@ -41,5 +41,15 @@ We used a Relational databases, PostgreSQL, to store data in tables and rows. we
  ![crime_clean_tables](https://user-images.githubusercontent.com/46768393/61580776-6cbaf280-aae3-11e9-93d4-95a17b208d46.png)
 
 
+### Challenges
+1. First of our datasets contains street address while the second contains geolocation grid (latitude and longitude).
+2. We used package geopy.geocoders to translate latitude and longitude into street address. This package appears to be a "frontend" to Google API. Quickly we ran out of API requests and had to put our project on hold for 24 hours. This is also a reason why we decided to upload to the database, dataset with addresses, without cleaning the data first. We did it as a precaution.
+3. Our address translations came in different format than the one we had in other table. This is a reason why we decided to capitalize neighborhood names.
 
+### Final thoughts
+We didn't join our tables, becasue we decided that joined table will be inconclusive and cannot be used for data analysis. 
+
+### Next Steps
+If we continued this project, we would scatter plot CCTV and Crimes across neghborhoods and check if any correlation exists. Also we would add third dataset with arrests data, and try to see if there is correlation between CCTV and arrests. And also if arrests are happening in the same neighborhoods as commited crimes.
+As a bonus to the presentation we would add intercative map using Folium.
 

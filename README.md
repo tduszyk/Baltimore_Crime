@@ -26,16 +26,16 @@ this that, we were able to isolate Lat and Long to use a simple code block to re
 
 We used a Relational databases, PostgreSQL, to store data in tables and rows. we stored the original set and the cleaned up sets.
 
-### This is or raw CCTVdata table
+### This is our raw CCTVdata table
  ![pgAdmin CCTVTable](https://user-images.githubusercontent.com/46768393/61580745-2b2a4780-aae3-11e9-9d0b-6d47ba59f5ed.png)
 
 ### And this is our clean CCTV data table
   ![cctv_clean_tables](https://user-images.githubusercontent.com/46768393/61580606-24e79b80-aae2-11e9-9324-c93762233e9c.png)
 
-### Raw Crime table
+### Raw Crime data table
  ![pgAdmin CrimeTable](https://user-images.githubusercontent.com/46768393/61580772-5f056d00-aae3-11e9-90ec-2948cfe1b2b9.png)
 
-### Clean Crime table
+### Clean Crime data table
  ![crime_clean_tables](https://user-images.githubusercontent.com/46768393/61580776-6cbaf280-aae3-11e9-93d4-95a17b208d46.png)
 
 

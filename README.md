@@ -3,15 +3,22 @@ Team 007
 Contributors
 Tom Duszyk and Karla Pratts
 
-Data sets
+Data sources
 
 Baltimore CCTV locations. from data.world : https://www.kaggle.com/sohier/crime-in-baltimore
 2019 Baltimore Crime data. from kaggle: https://www.kaggle.com/sohier/crime-in-baltimore 
 
+Data Transformation
+To be able to use the data sets we had to make some changes and clean up.
+One of the challenges was that the original CCTV locations data set had a location column for Latitude and Longitude.
+to be able to understand better the meaning of that we required geocoding to transform those location from Lat and Long to addresses.
+we created a lost for each and loop through the rows, while separation the values on the ',', we used the command 'except' to allow the code to run if there was an error or empty values.
+this that, we were able to isolate Lat and Long to use a simple code block to return addresses using the geopy dependency.
+
+
 
 Objectives.
 
-Map crime in Baltimore and location of CCTV 
 Are CCTV cameras helping reduce crime?
 
 Guidelines for ETL Project
